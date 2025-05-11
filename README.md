@@ -38,3 +38,8 @@ Efectos principales:
 
 	Promueve la micción y la defecación.  [1]
 
+## •	Efecto de la actividad simpática y parasimpática en la frecuencia cardiaca
+
+
+El sistema simpático aumenta la frecuencia cardíaca y la fuerza de las contracciones del músculo cardíaco y ensancha (dilata) las vías respiratorias para facilitar la respiración. Hace que el organismo libere la energía almacenada. La fuerza muscular aumenta. Este sistema también produce sudor en las palmas de las manos, dilatación de las pupilas y erección del vello. Hace más lentos los procesos corporales menos importantes en situaciones de emergencia, como la digestión y la micción. 
+Por otra parte, el sistema parasimpático se dedica a conservar y restaurar. Retarda la frecuencia cardíaca y disminuye la presión arterial. Estimula el tubo digestivo para procesar los alimentos y eliminar los residuos. La energía procedente de la transformación de los alimentos se utiliza para restaurar y formar tejidos. [2]
