@@ -1,4 +1,4 @@
-# variabilidad-de-la-frecuencia-cardiaca
+# Variabilidad de la frecuencia cardiaca
 Variabilidad de la frecuencia cardiaca usando la Transformada de Wavelet
 
 Para iniciar debemos conocer la siguiente información: 
@@ -43,3 +43,16 @@ Efectos principales:
 
 El sistema simpático aumenta la frecuencia cardíaca y la fuerza de las contracciones del músculo cardíaco y ensancha (dilata) las vías respiratorias para facilitar la respiración. Hace que el organismo libere la energía almacenada. La fuerza muscular aumenta. Este sistema también produce sudor en las palmas de las manos, dilatación de las pupilas y erección del vello. Hace más lentos los procesos corporales menos importantes en situaciones de emergencia, como la digestión y la micción. 
 Por otra parte, el sistema parasimpático se dedica a conservar y restaurar. Retarda la frecuencia cardíaca y disminuye la presión arterial. Estimula el tubo digestivo para procesar los alimentos y eliminar los residuos. La energía procedente de la transformación de los alimentos se utiliza para restaurar y formar tejidos. [2]
+
+## •	Variabilidad de la frecuencia cardiaca (HRV) medida como fluctuaciones en el intervalo R-R, y las frecuencias de interés en este análisis
+
+La variabilidad de la frecuencia cardíaca se conoce como la variación en el tiempo que transcurre entre los intervalos RR del electrocardiograma y refleja la actividad del sistema nervioso autónomo sobre la función cardíaca. Su aumento se considera un factor protector para el corazón y su medición podría ser una herramienta predictiva temprana o diagnóstica en enfermedades cardiovasculares. El sistema nervioso autónomo genera efectos inotrópicos y cronotrópicos en la función cardíaca, que pueden aumentar o disminuir esta variabilidad.
+
+El aumento o la disminución de la variabilidad de la frecuencia cardíaca están relacionados con la respuesta del sistema simpático y parasimpático; en otras palabras, la variación de tiempo en milisegundos que se da entre latido y latido está producida por la interacción del sistema nervioso autónomo con el sistema cardiovascular
+La frecuencia cardíaca y variabilidad de la frecuencia cardíaca son inversamente proporcionales, además en el análisis de esta variación pueden influir distintos factores como edad, género, temperatura, hora del día, estado de actividad (activo o en reposo), carga de trabajo, consumo de alcohol o tabaco, entre muchos otros.
+
+Para medir la variabilidad de la frecuencia cardiaca se utilizan distintos métodos, entre ellos el más común es el electrocardiograma, esta técnica muestra gráficamente cada una de las ondas R que se generan con cada latido, permitiendo el análisis del tiempo en milisegundos que hay entre los intervalos RR y las pequeñas variaciones que se pueden detectar entre intervalos consecutivos.
+
+Otra forma de medir la variabilidad de la frecuencia cardíaca es mediante los aparatos portátiles POLAR, generalmente usados por deportistas, ya que permiten cuantificar los intervalos RR mientras la persona practica ejercicio físico
+Con la ayuda de algunas técnicas como exponer a un paciente a estrés físico o administración de inotrópicos, se pueden hacer mediciones de laboratorio cortas de 2-5 minutos que permiten comparar la variabilidad de la frecuencia cardíaca de una persona antes y después de exponerlo a los estimuladores del sistema nervioso autónomo. [3]
+
