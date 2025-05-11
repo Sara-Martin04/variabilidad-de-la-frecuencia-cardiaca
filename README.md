@@ -56,11 +56,37 @@ Otra forma de medir la variabilidad de la frecuencia cardíaca es mediante los a
 Con la ayuda de algunas técnicas como exponer a un paciente a estrés físico o administración de inotrópicos, se pueden hacer mediciones de laboratorio cortas de 2-5 minutos que permiten comparar la variabilidad de la frecuencia cardíaca de una persona antes y después de exponerlo a los estimuladores del sistema nervioso autónomo. [3]
 
 ## •	Transformada Wavelet: definición, usos y tipos de wavelet utilizadas en señales biológicas.  
-![image](https://github.com/user-attachments/assets/07cfb992-a0d3-4389-8281-f875d75107e1)
+La transformada wavelet es una técnica matemática que se usa para analizar señales que cambian con el tiempo, como las señales del corazón (ECG), del cerebro (EEG) o de los músculos (EMG). A diferencia de otras transformadas, como la de Fourier, la wavelet no solo muestra qué frecuencias hay en una señal, sino también en qué momento ocurren. Es como tener una lupa que te deja ver los detalles de la señal en diferentes escalas de tiempo, lo cual es muy útil porque las señales biológicas no son constantes y suelen tener muchos cambios rápidos.
+Las wavelets se usan para cosas como:
+•	Quitar el ruido que no nos sirve.
+•	Detectar cosas importantes, como un latido raro.
+•	Reducir el tamaño del archivo sin perder información importante.
+•	Sacar datos útiles que después podemos usar para diagnosticar o alimentar un algoritmo.
+Existen diferentes tipos de wavelets, y se eligen dependiendo del tipo de señal que se está analizando, como:
+
+•	Daubechies (db): súper usadas, detectan bien los cambios rápidos.
+![image](https://github.com/user-attachments/assets/15448129-6df3-4f79-80a7-230d143eb053)
+
+•	Symlets (sym): parecidas a Daubechies, pero un poco más suaves.
+ ![image](https://github.com/user-attachments/assets/dffa3e39-8e4f-4ea3-bdac-e3c6f57e8c50)
+ 
+•	Coiflets (coif): buenas para ver detalles finos.
+![image](https://github.com/user-attachments/assets/1e362a7b-d654-4331-93af-8cf23015d170)
+
+•	Biorthogonales (bior): sirven mucho para limpiar señales.
+![image](https://github.com/user-attachments/assets/27bfb228-a893-4607-bfa1-3831f9ee8f35)
+
+•	Morlet y Mexican Hat: se usan cuando quieres ver cómo cambian las frecuencias con el tiempo (muy usadas en EEG).
+![image](https://github.com/user-attachments/assets/9a5c34e8-926c-43c2-ab2a-467c448690ef)
+![image](https://github.com/user-attachments/assets/8c5988bd-cc11-4ff1-aa62-da4f618745be)
+
+
+
+  ![image](https://github.com/user-attachments/assets/07cfb992-a0d3-4389-8281-f875d75107e1)
 
   ![image](https://github.com/user-attachments/assets/9051311c-f33b-4f49-b02a-c55247089377)
 
-Diagrama de flujo 
+*Diagrama de flujo*
 
 ### Bibliografía:
 
@@ -69,3 +95,5 @@ Diagrama de flujo
 [2] Coon, E. (2023, julio 3). Introducción al sistema nervioso autónomo. Manual MSD versión para público general; Manuales MSD. https://www.msdmanuals.com/es/hogar/enfermedades-cerebrales-medulares-y-nerviosas/trastornos-del-sistema-nervioso-aut%C3%B3nomo/introducci%C3%B3n-al-sistema-nervioso-aut%C3%B3nomo
 
 [3] Veloza, L., Jiménez, C., Quiñones, D., Polanía, F., Pachón-Valero, L. C., & Rodríguez-Triviño, C. Y. (2019). Variabilidad de la frecuencia cardiaca como factor predictor de las enfermedades cardiovasculares. Revista colombiana de cardiologia, 26(4), 205–210. https://doi.org/10.1016/j.rccar.2019.01.006
+
+[4] Introduction to Wavelet Families - MATLAB & Simulink. (s. f.). https://la.mathworks.com/help/wavelet/gs/introduction-to-the-wavelet-families.html
