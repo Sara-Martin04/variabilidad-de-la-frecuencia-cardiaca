@@ -1,5 +1,4 @@
-# Variabilidad de la frecuencia cardiaca
-Variabilidad de la frecuencia cardiaca usando la Transformada de Wavelet
+# Variabilidad de la frecuencia cardiaca usando la Transformada de Wavelet
 
 Para iniciar debemos conocer la siguiente información: 
 
