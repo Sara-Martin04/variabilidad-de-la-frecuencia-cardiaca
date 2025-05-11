@@ -56,3 +56,10 @@ Para medir la variabilidad de la frecuencia cardiaca se utilizan distintos méto
 Otra forma de medir la variabilidad de la frecuencia cardíaca es mediante los aparatos portátiles POLAR, generalmente usados por deportistas, ya que permiten cuantificar los intervalos RR mientras la persona practica ejercicio físico
 Con la ayuda de algunas técnicas como exponer a un paciente a estrés físico o administración de inotrópicos, se pueden hacer mediciones de laboratorio cortas de 2-5 minutos que permiten comparar la variabilidad de la frecuencia cardíaca de una persona antes y después de exponerlo a los estimuladores del sistema nervioso autónomo. [3]
 
+### Bibliografía:
+
+[1] Fisiología del sistema nervioso autónomo. (s/f). Medwave.cl. Recuperado el 3 de mayo de 2025, de https://www.medwave.cl/puestadia/cursos/3347.html
+
+[2] Coon, E. (2023, julio 3). Introducción al sistema nervioso autónomo. Manual MSD versión para público general; Manuales MSD. https://www.msdmanuals.com/es/hogar/enfermedades-cerebrales-medulares-y-nerviosas/trastornos-del-sistema-nervioso-aut%C3%B3nomo/introducci%C3%B3n-al-sistema-nervioso-aut%C3%B3nomo
+
+[3] Veloza, L., Jiménez, C., Quiñones, D., Polanía, F., Pachón-Valero, L. C., & Rodríguez-Triviño, C. Y. (2019). Variabilidad de la frecuencia cardiaca como factor predictor de las enfermedades cardiovasculares. Revista colombiana de cardiologia, 26(4), 205–210. https://doi.org/10.1016/j.rccar.2019.01.006
