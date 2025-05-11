@@ -57,8 +57,8 @@ Con la ayuda de algunas técnicas como exponer a un paciente a estrés físico o
 
 ## •	Transformada Wavelet: definición, usos y tipos de wavelet utilizadas en señales biológicas.  
 ![image](https://github.com/user-attachments/assets/07cfb992-a0d3-4389-8281-f875d75107e1)
-![image](https://github.com/user-attachments/assets/9051311c-f33b-4f49-b02a-c55247089377)
 
+![image](https://github.com/user-attachments/assets/9051311c-f33b-4f49-b02a-c55247089377)
 
 Diagrama de flujo 
 
