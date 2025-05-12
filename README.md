@@ -141,6 +141,14 @@ A partir del siguiente codigo:
 ````
 
 ````
+
+
+## Recomendaciones
+-Python 3.9, pyedflib, matplotlib, QtWidgets, pywt
+
+## Información de contacto
+-est.paula.vcardenas@unimilitar.edu.co, est.sara.martin@unimilitar.edu.co, est.cristian.cmolina@unimilitar.edu.co
+
 ### Bibliografía:
 
 [1] Fisiología del sistema nervioso autónomo. (s/f). Medwave.cl. Recuperado el 3 de mayo de 2025, de https://www.medwave.cl/puestadia/cursos/3347.html
