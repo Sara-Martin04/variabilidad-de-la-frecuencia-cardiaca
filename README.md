@@ -145,6 +145,7 @@ nivel_max = pywt.dwt_max_level(len(ecg_interp), pywt.Wavelet(wavelet).dec_len)
 coeffs = pywt.wavedec(ecg_interp, wavelet, level=nivel_max)
 ````
 
+Al observar el espectrograma wavelet de la señal ECG, que representa periodos de relajación y alterada, se puede ver que en la banda de baja frecuencia (0.5–15 Hz), donde se encuentran las ondas principales del ECG (P, QRS y T), hay una mayor concentración de energía entre los segundos 0 y 3, y nuevamente entre los 12 y 14 segundos, lo que podría reflejar los episodios de taquicardia con una actividad cardíaca más intensa. En cambio, durante los momentos intermedios (aproximadamente entre 4 y 10 segundos), la energía se distribuye de forma más estable, lo que coincide con un estado de relajación. En la banda de alta frecuencia (15–125 Hz), relacionada más con ruido o actividad muscular, se ven zonas rojas entre los segundos 0–2 y 6–10, lo que indica momentos de alta energía posiblemente vinculados a movimientos o interferencias. También hay actividad notable en las frecuencias más bajas (0.49–3.9 Hz), que puede deberse a componentes lentos del ECG, como la onda T, o a la variabilidad del ritmo cardíaco en relajación. En general, se observa un cambio en la potencia espectral a lo largo del tiempo, con una señal más intensa durante la taquicardia y más estable durante la relajación.
 
 ## Recomendaciones
 -Python 3.9, pyedflib, matplotlib, QtWidgets, pywt
