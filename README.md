@@ -134,12 +134,15 @@ A partir de esta información, se realizó el análisis en el dominio del tiempo
 
 Finalmente, se aplicó la transformada wavelet daubechies discreta, con el fin de obtener un espectrograma de la HRV que permitiera observar la evolución temporal de las componentes de baja y alta frecuencia, asociadas a la actividad simpática y parasimpática del sistema nervioso autónomo, obtuvimos lo siguiente:
 
+![Imagen de WhatsApp 2025-05-11 a las 20 19 01_1731d284](https://github.com/user-attachments/assets/d1eec6ed-f028-4ad5-a64b-df9c3fdaab44)
 
 *wavelet*
 
 A partir del siguiente codigo:
 ````
-
+wavelet = 'db4'
+nivel_max = pywt.dwt_max_level(len(ecg_interp), pywt.Wavelet(wavelet).dec_len)
+coeffs = pywt.wavedec(ecg_interp, wavelet, level=nivel_max)
 ````
 
 
