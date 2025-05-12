@@ -95,8 +95,10 @@ Iniciamos obteniendo la señal electrocardiofráfica (ECG) durante un periodo de
 
 Una vez obtenida la señal, se procedio con su procesamiento, se aplico un flitro IIR-pasa banda, para la eliminacion de componentes no deseados y reduccion de ruido, ademas para identificar los picos R y asi poder evaluar su comportamiento, obtuvimos lo siguiente:
 
-![Imagen de WhatsApp 2025-05-11 a las 18 53 03_c81bd096](https://github.com/user-attachments/assets/6efb5cad-7415-4361-99f6-d2fa66ff3d0d)
+![filtro](https://github.com/user-attachments/assets/8cc9296b-51ea-4dc5-b865-9021edaf75a7)
+
 *Señal filtrada*
+
 Con el siguiente codigo:
 ````
 def aplicar_filtro_iir_manual(x, b, a):
@@ -112,6 +114,8 @@ def aplicar_filtro_iir_manual(x, b, a):
     return np.array(y)
 ````
 Posteriormente, se identificaron los picos R presentes en la señal ECG y se calcularon los intervalos R-R, construyendo con ello una nueva señal basada en estos intervalos, se obtuvo lo siguiente:
+
+![R-R](https://github.com/user-attachments/assets/8a32a49a-5abb-481e-b216-3f5408b8ae7c)
 
 *Señal R-R*
 
@@ -129,6 +133,7 @@ t_rr = t[picos[1:]]
 A partir de esta información, se realizó el análisis en el dominio del tiempo, extrayendo parámetros estadísticos relevantes como la media y desviación estándar de los intervalos R-R, lo que aparece incorporado en la grafica. 
 
 Finalmente, se aplicó la transformada wavelet daubechies discreta, con el fin de obtener un espectrograma de la HRV que permitiera observar la evolución temporal de las componentes de baja y alta frecuencia, asociadas a la actividad simpática y parasimpática del sistema nervioso autónomo, obtuvimos lo siguiente:
+
 
 *wavelet*
 
