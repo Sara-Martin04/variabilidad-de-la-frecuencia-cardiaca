@@ -87,7 +87,55 @@ Existen diferentes tipos de wavelets, y se eligen dependiendo del tipo de señal
   ![image](https://github.com/user-attachments/assets/9051311c-f33b-4f49-b02a-c55247089377)
 
 *Diagrama de flujo*
+## •	Desarrollo y resultados.
+Iniciamos obteniendo la señal electrocardiofráfica (ECG) durante un periodo de tiempo de seis minutos, en ese lapso de tiempo adquirio la señal en estado de reposo (feliz - normal) y en estado de alteración (enojada), se obtuvo la siguiente señal:
 
+![ecgsara](https://github.com/user-attachments/assets/af2a1bad-3a22-4e73-9984-74580d71198e)
+*Señal ECG*
+
+Una vez obtenida la señal, se procedio con su procesamiento, se aplico un flitro IIR-pasa banda, para la eliminacion de componentes no deseados y reduccion de ruido, ademas para identificar los picos R y asi poder evaluar su comportamiento, obtuvimos lo siguiente:
+
+![Imagen de WhatsApp 2025-05-11 a las 18 53 03_c81bd096](https://github.com/user-attachments/assets/6efb5cad-7415-4361-99f6-d2fa66ff3d0d)
+*Señal filtrada*
+Con el siguiente codigo:
+````
+def aplicar_filtro_iir_manual(x, b, a):
+    y = [0.0] * len(x)
+    for n in range(len(x)):
+        for i in range(len(b)):
+            if n - i >= 0:
+                y[n] += b[i] * x[n - i]
+        for j in range(1, len(a)):
+            if n - j >= 0:
+                y[n] -= a[j] * y[n - j]
+        y[n] = y[n] / a[0]
+    return np.array(y)
+````
+Posteriormente, se identificaron los picos R presentes en la señal ECG y se calcularon los intervalos R-R, construyendo con ello una nueva señal basada en estos intervalos, se obtuvo lo siguiente:
+
+*Señal R-R*
+
+Utilizando el siguiente codigo:
+````
+# Detección de picos R 
+t = np.linspace(0, duracion_objetivo, len(ecg))
+threshold = np.mean(ecg_filtrada) + 0.5 * np.std(ecg_filtrada) 
+picos, _ = find_peaks(ecg_filtrada, height=threshold, distance=fs * 0.4)  
+
+# Calcular los intervalos R-R
+rr_intervals = np.diff(picos) / fs  
+t_rr = t[picos[1:]]  
+````
+A partir de esta información, se realizó el análisis en el dominio del tiempo, extrayendo parámetros estadísticos relevantes como la media y desviación estándar de los intervalos R-R, lo que aparece incorporado en la grafica. 
+
+Finalmente, se aplicó la transformada wavelet daubechies discreta, con el fin de obtener un espectrograma de la HRV que permitiera observar la evolución temporal de las componentes de baja y alta frecuencia, asociadas a la actividad simpática y parasimpática del sistema nervioso autónomo, obtuvimos lo siguiente:
+
+*wavelet*
+
+A partir del siguiente codigo:
+````
+
+````
 ### Bibliografía:
 
 [1] Fisiología del sistema nervioso autónomo. (s/f). Medwave.cl. Recuperado el 3 de mayo de 2025, de https://www.medwave.cl/puestadia/cursos/3347.html
