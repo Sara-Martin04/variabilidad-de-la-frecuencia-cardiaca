@@ -82,9 +82,7 @@ Existen diferentes tipos de wavelets, y se eligen dependiendo del tipo de señal
 
 
 
-  ![image](https://github.com/user-attachments/assets/07cfb992-a0d3-4389-8281-f875d75107e1)
-
-  ![image](https://github.com/user-attachments/assets/9051311c-f33b-4f49-b02a-c55247089377)
+![Imagen de WhatsApp 2025-05-14 a las 15 04 54_994e5665](https://github.com/user-attachments/assets/2eef5297-09b8-4deb-9cad-272934e1905e)
 
 *Diagrama de flujo*
 ## •	Desarrollo y resultados.
