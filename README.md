@@ -82,7 +82,7 @@ Existen diferentes tipos de wavelets, y se eligen dependiendo del tipo de señal
 
 
 ## •	Desarrollo y resultados.
-Antes de iniciar la practica diseñamos los pasos a seguir para un buen desallo de esta, con el siguiente diagrama:
+Antes de iniciar la practica diseñamos los pasos a seguir para un buen desallo de la práctica , con el siguiente diagrama de flujo: 
 
 ![Imagen de WhatsApp 2025-05-14 a las 15 04 54_994e5665](https://github.com/user-attachments/assets/2eef5297-09b8-4deb-9cad-272934e1905e)
 
