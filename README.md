@@ -81,11 +81,13 @@ Existen diferentes tipos de wavelets, y se eligen dependiendo del tipo de señal
 ![image](https://github.com/user-attachments/assets/8c5988bd-cc11-4ff1-aa62-da4f618745be)
 
 
+## •	Desarrollo y resultados.
+Antes de iniciar la practica diseñamos los pasos a seguir para un buen desallo de esta, con el siguiente diagrama:
 
 ![Imagen de WhatsApp 2025-05-14 a las 15 04 54_994e5665](https://github.com/user-attachments/assets/2eef5297-09b8-4deb-9cad-272934e1905e)
 
 *Diagrama de flujo*
-## •	Desarrollo y resultados.
+
 Iniciamos obteniendo la señal electrocardiofráfica (ECG) durante un periodo de tiempo de seis minutos, en ese lapso de tiempo adquirio la señal en estado de reposo (feliz - normal) y en estado de alteración (enojada), se obtuvo la siguiente señal:
 
 ![ecgsara](https://github.com/user-attachments/assets/af2a1bad-3a22-4e73-9984-74580d71198e)
